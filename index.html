@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Home Page</title>
+		<link rel="stylesheet" type="text/css" href="link.css">
+	
+<script type="text/javascript">
+	
+	function loadPage() {
+
+		alert("Welcome to my page!" + new Date());
+
+
+
+
+	}
+
+
+
+
+</script>
+
+
+
+	</head>
+	<body style="background-color: black;" onload="loadPage()">
+
+<style type="text/css">
+	
+	.intro {color: darkred; text-align: center; background-color: black; font-size: 42px; border-style: solid; border-color: gold; text-decoration: underline; text-transform: capitalize; font-family: Lucida console, monospace;}
+
+	form { background-color: yellow; border-style: solid; border-color: gold;}
+	.box {color: darkblue; background-color: lightskyblue; border-color: steelblue; border-style: solid; font-family: Monaco, monospace;}
+
+	body { background-image: url("images/oramuda.jpg");
+			background-repeat: repeat-y;
+			background-position: center;
+			background-size: cover;
+			
+	}	
+</style>
+
+  
+<p class="intro"> Welcome to my personal home page. </p>
+
+<form name="login" action="process-form.php" method="post">
+	User Name:
+	<input type="text" name="username">
+	<br>
+	Password:
+	<input type="password" name="password">
+	<br>
+	Least favorite Friend:
+	<select name="Friends">
+		<option value="Jordan">Jordan Heinemen</option>
+		<option value="Manny">Manny Fernandez</option>
+		<option value="Egan">Egan Cobb</option>
+		<option value="Dr.Gino">Dr. Gino DiGianntonio</option>
+
+	</select>
+<br>
+Comments and Suggestions:
+<br>
+<textarea name="Comments" rows="10" cols="30";></textarea>
+<br>
+<input type="radio" name="whosucks" value="ian-sucks"> YES
+<input type="radio" name="whosucks" value="moonman-rules">
+NO
+	<input type="submit"; onclick="alert('You Submitted a Comment! Thanks for nothing!')";>
+
+</form>
+
+<hr>
+
+<h1 class="intro">Home Page</h1>
+
+<p class="box">Checkout a list of  <a href="my-22plans.html"> my plans this year for 2022</a> </p>
+<p class="box">Heres a list of <a href="sub-pages/my-friends.html"> my friends </a> </p>
+<p class="box">All of the <a href="my-travels.html"> countries I have visited in the past!</a> </p>
+<p class="box">Here is my <a target="blank" href="http://www.pandora.com/playlist/PL:83227534811991151:1499291667"> Pandora playlist </a> </p>
+<p class="box">My <a href="my-portfolio.html">Portfolio</p>
+
+
+
+<a href="http://www.youtube.com/watch?v=o5lj1Pgjruo"><img style="width: 180px; height: 180px;float: right; border-width: 15px;border-color: darkblue; border-style: solid;" src="images/qtaro.png"></a>
+
+ 
+	</body>
+</html>

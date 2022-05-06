@@ -1,0 +1,18 @@
+a:link, a: visited; {color: grreen; 
+	text-decoration: none;
+	 padding: 10px;
+	 padding: 5px;
+	border-radius: 10px;
+	}
+
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+
+a:active { color: green; font-weight: bold;}
+
